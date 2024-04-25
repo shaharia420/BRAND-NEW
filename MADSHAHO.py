@@ -3,7 +3,7 @@ from os import path
 #import requests,random,uuid,string,hashlib,json
 from os import path
 from urllib.request import urlopen
-import os,base64,zlib,pip,urllib,urllib3
+#import os,base64,zlib,pip,urllib,urllib3
 import platform,math,smtplib
 import platform
 import smtplib
