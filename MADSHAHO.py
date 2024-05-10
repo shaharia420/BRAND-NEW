@@ -279,7 +279,7 @@ def api1(ids,names,passlist):
                         fbrv = '0'
                         fban = 'FB4A'
                         fbpn = 'com.facebook.katana'
-                        ua = 'Dalvik/2.1.0 (Linux; U; Android '+android_version+'.0.1; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
+                        ua = 'Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4,14))+"; IN2013 Build/SD2A."+str(random.randint(111111,999999))+"."+str(random.randint(10,999))+") "[FBAN/FB4A;FBAV/243.0.0.47.112;FBBV/230221563;FBDM/{density=2.0,width=720,height=1423};FBLC/en_GB;FBCR/Verizon Wireless;FBMF/OnePlus;FBBD/oneplus;FBPN/com.facebook.katana;FBDV/IN2013;FBSV/8.3.1;FBCA/arm64-v8a:;]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
